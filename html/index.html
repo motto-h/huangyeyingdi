@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>首页</title>
+    <metaname="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <!-- a -->
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container swiper-container-h">
+      <nav>
+          <img src="../img/logo2.png" alt="">
+      </nav>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box1">
+            <div class="text">
+                <h1>荒野营地</h1>
+                <p class="zh">重逢久违的自己</p>
+                <p class="en">HUANGYEYINGDI</p>
+            </div>
+            <img class="tuoyuan" src="./img/ty.png" alt="">
+            <div class="down">
+                <img src="../img/down.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide box2">
+            <div class="left"></div>
+            <div class="bg"></div>
+            <div class="word">
+                <p>日月星辰 山川湖海</p>
+                <p>世间万象 人生百态</p>
+            </div>
+            <div class="detail">
+                <a href="#">查看产品详情</a>
+                <img src="../img/righta.png" alt="">
+            </div>
+            <div class="down">
+                <img src="../img/down.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide box3">
+            <div class="poetry">
+                <h4>江湖</h4>
+                <p>忽晴忽雨</p>
+                <p class="middle">有梦为马</p>
+                <p>永远随处可栖</p>
+                <div class="phone">
+                    <img src="../img/phone.png" alt="" class="tel">
+                    <a href="#">联系我们</a>
+                    <img src="../img/righta.png" alt="" class="right">
+                </div>
+            </div>
+            <div class="text3">
+                <p class="one">只是这灵魂，被城市束缚，捆绑太久</p>
+                <p>我们需要找回真正的自己</p>
+            </div>
+            <div class="phone_b">
+                <img src="../img/phone.png" alt="" class="tel_b">
+                <a href="#">联系我们</a>
+                <img src="../img/righta.png" alt="" class="right_b">
+            </div>
+            <div class="logo">
+                <img src="../img/logo2.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide box4">
+          <div class="swiper-container swiper-container-v">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide box11">
+                <div class="product">
+                    <h3>我们的产品</h3>
+                    <p>我们的使命：让城里人在农村有个家</p>
+                    <a href="#">进一步了解
+                        <img src="../img/heiright.png" alt="">
+                    </a>
+                </div>
+              </div>
+              <div class="swiper-slide box22"></div>
+              <div class="swiper-slide box33"></div>
+              <div class="swiper-slide box44"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="swiper-slide box5">
+            <dl class="foot_i">
+                <dt>首页</dt>
+                <dd>
+                    <a href="#">场景展示</a>
+                </dd>
+            </dl>
+            <dl class="foot_t">
+                <dt>产品介绍</dt>
+                <dd>
+                    <a href="#">参数介绍</a>
+                </dd>
+                <dd>
+                    <a href="#">功能分类</a>
+                </dd>
+                <dd>
+                    <a href="#">场景功能</a>
+                </dd>
+            </dl>
+             <dl class="about">
+                <dt>关于我们</dt>
+                <dd>
+                    <a href="#">关于我们</a>
+                </dd>
+                <dd>
+                    <a href="#">联系我们</a>
+                </dd>
+            </dl>
+            <dl class="follow">
+                <dt>关注我们</dt>
+                <dd>
+                    <img src="../image/er01.png" alt="">
+                    <img src="../image/er02.png" alt="">
+                </dd>
+            </dl> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiperH = new Swiper(".swiper-container-h", {
+        direction: "vertical",
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination-h",
+          clickable: true
+        }
+      });
+      var swiperV = new Swiper(".swiper-container-v", {
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination-v",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+  </body>
+</html>

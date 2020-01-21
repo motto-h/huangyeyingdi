@@ -1,0 +1,942 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+/* header */
+
+@media screen and (min-width:992px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  li {
+    list-style: none;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* header */
+  .header {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background: url("../image/ProductDisplay.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .header .header-logo {
+    position: absolute;
+    width: 72px;
+    height: 35px;
+    left: 56px;
+    top: 24px;
+  }
+  .header .header-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 500px;
+  }
+  .header .header-text-left {
+    float: left;
+    width: 100%;
+    height: 116px;
+  }
+  .header .header-text-left h3 {
+    float: left;
+    font-size: 40px;
+    letter-spacing: 7px;
+    color: #fff;
+    margin-right: 15px;
+  }
+  .header .header-text-left p {
+    float: left;
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+    letter-spacing: 3px;
+  }
+  .header .line {
+    display: none;
+  }
+  .header-text-right {
+    display: none;
+  }
+  .header-right {
+    height: 50px;
+    position: absolute;
+    top: 65px;
+  }
+  .header-right ul li {
+    float: left;
+    width: 50px;
+    font-size: 14px;
+    padding: 0 31px;
+    border-right: 1px solid #fff;
+    color: #fff;
+    letter-spacing: 5px;
+  }
+  .header-right .one {
+    padding-left: 0;
+  }
+  .header .header-bottom {
+    position: absolute;
+    width: 274px;
+    height: 19px;
+    bottom: 44px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /*  */
+  .ListDiagram1 {
+    display: none;
+  }
+  .ListDiagram2 {
+    display: none;
+  }
+  .ListDiagram3 {
+    display: none;
+  }
+  .box1 {
+    position: relative;
+    background-size: cover;
+    background: url(../image/banner.png) no-repeat center center;
+  }
+  .box2 {
+    position: relative;
+    background-size: cover;
+    background: url(../image/banner1.png) no-repeat center center;
+  }
+  .box1 .bottom {
+    position: absolute;
+    bottom: 0;
+    border: 1px dashed #4b4a4a;
+  }
+  .StarryRoom {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 24px;
+  }
+  .StarryRoom h4 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .StarryRoom > p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .StarryRoom > div {
+    width: 100%;
+    height: 515px;
+    margin: 0 auto;
+    margin-top: 9px;
+  }
+  .StarryRoom-list1 {
+    display: none;
+  }
+  .StarryRoom-list2 {
+    display: none;
+  }
+  .StarryRoom-list3 {
+    display: none;
+  }
+  .StarryRoom-list4 {
+    display: none;
+  }
+  .list {
+    width: 100%;
+    height: 700px;
+    margin: 0 10px;
+  }
+  .list ul li {
+    float: left;
+    height: 250px;
+    width: 400px;
+    margin: 0 10px 10px 0;
+    border: 1px dashed #ccc;
+  }
+  .list img {
+    height: 250px;
+    width: 400px;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    width: 25px;
+    height: 44px;
+    color: #4b4a4a;
+    border: 1px dashed black;
+  }
+  .FunctionalClassification {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #ccc;
+    margin-top: 10px;
+    background: url("../image/blue01.png") no-repeat center;
+    background-size: 100% 100%;
+  }
+  .FunctionalClassification .FunctionalClassification-h4 {
+    height: 92px;
+    margin-top: 260px;
+  }
+  .FunctionalClassification .FunctionalClassification-h4 h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .FunctionalClassification p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 11px;
+    letter-spacing: 10px;
+  }
+  .FunctionalClassification span {
+    display: none;
+  }
+  .fa{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    height: 30px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+  .fa a {
+    font-size: 12px;
+    color: #fff;
+  }
+  .FunctionalClassification .FunctionalClassification-span1 {
+    left:261px;
+    bottom:161px;
+  }
+  .FunctionalClassification .FunctionalClassification-span2 {
+    right:277px;
+    bottom: 161px;
+  }
+  .Design{
+    display: none;
+  }
+  .Design_mb{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 1650px;
+    padding-top: 20px;
+  }
+  .Design_mb ul li{
+    width: 800px;
+    height: 800px;
+    float: left;
+    margin: 10px 20px;
+  }
+  .Design_mb ul li img{
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #ccc;
+  }
+  /*  */
+  .SceneCunction{
+    display: none;
+  }
+  .scene{
+    width: 100%;
+    height:1700px;
+    position: relative;
+  }
+  .scene h4{
+    font-size: 55px;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-25%);
+  }
+  .scene ul{
+    margin-top: 50px;
+    height: 100%;
+  }
+  .scene ul li{
+    width: 49%;
+    height: 550px;
+    float: left;
+    margin: 10px 7px;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .scene ul li h5{
+    font-size: 24px;
+    color: #333333;
+    margin: 10px auto;
+  }
+  .scene ul li p{
+    font-size: 12px;
+    width: 300px;
+    margin: 10px auto 20px;
+  }
+  .scene ul li img{
+    border: 1px dashed rgb(100, 99, 99);
+    margin-top: 30px;
+  }
+  .scene ul li .one{
+    width: 189px;
+    height: 243px;
+  }
+  .scene ul li .three{
+    /* margin-top: 30px; */
+    width: 295px;
+    height: 230px;
+  }
+  .footer{
+    border: 1px dashed #ccc;
+    width: 100%;
+    height:500px;
+    background: url("../image/footer-phone.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .foot_i {
+    color: #fff;
+    position: absolute;
+    left: 210px;
+    top: 140px;
+    text-align: left;
+  }
+  .foot_i dt {
+    font-size: 30px;
+    margin-bottom: 45px;
+  }
+  .foot_i dd {
+    margin: 0;
+    width: 250px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #fff;
+  }
+  .foot_t {
+    color: #fff;
+    position: absolute;
+    left: 520px;
+    top: 140px;
+    text-align: left;
+  }
+  .foot_t dt {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .foot_t dd {
+    margin: 0;
+    width: 250px;
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: 2px solid#fff;
+  }
+  .about {
+    color: #fff;
+    position: absolute;
+    left: 850px;
+    top: 140px;
+    text-align: left;
+  }
+  .about dt {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .about dd {
+    margin: 0;
+    width: 250px;
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: 2px solid#fff;
+  }
+  .follow {
+    color: #fff;
+    position: absolute;
+    left: 1170px;
+    top: 140px;
+    text-align: left;
+  }
+  .follow dt {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .follow dd img {
+    width: 112px;
+    height: 112px;
+  }
+}
+@media screen and (max-width: 993px) {
+  li {
+    list-style: none;
+  }
+  html {
+    font-size: 13.33333vw;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.swiper-container{
+  display: none;
+}
+  .header {
+    position: relative;
+    width: 7.5rem;
+    height: 10.8rem;
+    background: url("../image/Exhibition-header.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .header .header-logo {
+    position: absolute;
+    width: 0.72rem;
+    height: 0.35rem;
+    left: 0.56rem;
+    top: 0.24rem;
+  }
+  .header .header-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 3.7rem;
+    height: 1.16rem;
+  }
+  .header .header-text-left {
+    float: left;
+    width: 1.92rem;
+    height: 1.16rem;
+    margin-right: 0.24rem;
+  }
+  .header .header-text-left h3 {
+    font-size: 0.4rem;
+    letter-spacing: 0.07rem;
+    color: #fff;
+  }
+  .header .header-text-left p {
+    font-size: 0.23rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 0.25rem;
+  }
+  .header .line {
+    float: left;
+    width: 0.02rem;
+    height: 1.03rem;
+    margin-top: 0.07rem;
+    background-color: #fff;
+  }
+  .header .header-text-right {
+    float: right;
+    width: 1.26rem;
+    height: 1.16rem;
+  }
+  .header .header-text-right p {
+    font-size: 0.2rem;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    line-height: 0.29rem;
+  }
+  .header-right{
+    display: none;
+  }
+  .header .header-bottom {
+    position: absolute;
+    width: 2.74rem;
+    height: 0.19rem;
+    bottom: 0.44rem;
+    left: 2.49rem;
+  }
+  /* ListDiagram1 */
+  .ListDiagram1 {
+    width: 7.49rem;
+    height: 4.17rem;
+    border-top: 1px dashed #ccc;
+    border-left: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+    background: url("../image/ListDiagram1.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  /* ListDiagram2 */
+  .ListDiagram2 {
+    width: 7.41rem;
+    height: 4.17rem;
+    margin: 0 auto;
+    border-top: 1px dashed #ccc;
+    border-left: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    background: url("../image/ListDiagram2.png");
+    background-size: 100% 100%;
+  }
+  /* ListDiagram3 */
+  .ListDiagram3 {
+    position: relative;
+    width: 7.41rem;
+    height: 4.17rem;
+    margin: 0 auto;
+  }
+  .ListDiagram3 .ListDiagram3-left {
+    position: absolute;
+    width: 1.38rem;
+    height: 1.38rem;
+    border: 1px dashed #ccc;
+    left: 0.68rem;
+    top: 1.28rem;
+    background: url("../image/ListDiagram3-left-zindex.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .ListDiagram3 .ListDiagram3-left p {
+    font-size: 0.12rem;
+    color: #000;
+    margin-left: 0.31rem;
+    margin-top: 0.96rem;
+  }
+  .ListDiagram3 .ListDiagram3-left-zindex {
+    width: 2.25rem;
+    height: 0.58rem;
+    position: absolute;
+    left: 0.92rem;
+    top: 1.56rem;
+    font-weight: 600;
+    z-index: 99;
+  }
+  .ListDiagram3 .ListDiagram3-left-zindex p {
+    font-size: 0.16rem;
+    color: #303030;
+  }
+  .ListDiagram3 .ListDiagram3-right {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.83rem;
+    width: 2.65rem;
+    height: 2.65rem;
+    border: 1px dashed #ccc;
+  }
+  .ListDiagram3 .ListDiagram3-right img {
+    width: 100%;
+    height: 100%;
+  }
+  .ListDiagram3 .ListDiagram3-bottom {
+    width: 2.11rem;
+    height: 0.31rem;
+    position: absolute;
+    bottom: 0.25rem;
+    left: 2.66rem;
+    border: 1px dashed #ccc;
+  }
+  .ListDiagram3 .ListDiagram3-bottom img {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 0.1rem;
+  }
+  /* 星空房 */
+  .list{
+    display: none;
+  }
+  .StarryRoom {
+    width: 7.5rem;
+  }
+  .StarryRoom h4 {
+    font-size: 0.3rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+  }
+  .StarryRoom > p {
+    font-size: 0.12rem;
+    font-weight: 600;
+    margin-top: 0.08rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .StarryRoom > div {
+    width: 7.4rem;
+    height: 2.1rem;
+    margin: 0 auto;
+    margin-top: 0.09rem;
+  }
+  .StarryRoom > div:nth-child(1) {
+    margin-top: 0.44rem;
+  }
+  .StarryRoom > div:nth-child(4) {
+    margin-bottom: 0.1rem;
+  }
+  .StarryRoom > div .fl {
+    float: left;
+  }
+  .StarryRoom > div .fr {
+    float: right;
+  }
+  .StarryRoom > div > img {
+    width: 3.65rem;
+    height: 2.1rem;
+    border: 1px dashed #ccc;
+  }
+  /* 星空功能 */
+  .fa{
+    display: none;
+  }
+  .FunctionalClassification {
+    position: relative;
+    width: 7.48rem;
+    height: 4.91rem;
+    border: 1px dashed #ccc;
+    margin-top: 0.1rem;
+    background: url("../image/FunctionalClassification.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .FunctionalClassification .FunctionalClassification-h4 {
+    width: 1.66rem;
+    height: 0.92rem;
+    margin-left: 2.93rem;
+    margin-top: 1.47rem;
+  }
+  .FunctionalClassification .FunctionalClassification-h4 h4 {
+    font-size: 0.34rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.05rem;
+  }
+  .FunctionalClassification p {
+    font-size: 0.16rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.11rem;
+    letter-spacing: 0.05rem;
+  }
+  .FunctionalClassification span {
+    position: absolute;
+    font-size: 0.15rem;
+  }
+  .FunctionalClassification span a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .FunctionalClassification .FunctionalClassification-span1 {
+    left: 2.61rem;
+    bottom: 1.61rem;
+  }
+  .FunctionalClassification .FunctionalClassification-span2 {
+    right: 2.77rem;
+    bottom: 1.61rem;
+  }
+  /* 星空设计 */
+  .Design {
+    width: 7.5rem;
+  }
+  .Design div {
+    width: 5.24rem;
+    height: 5.24rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+    border: 1px dashed #ccc;
+  }
+  .Design div img {
+    width: 100%;
+    height: 100%;
+  }
+  /* Scene function   场景功能 */
+  .SceneCunction {
+    width: 7.5rem;
+  }
+  .SceneCunction .SceneCunction-h4-1 {
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.24rem;
+    letter-spacing: 0.03rem;
+  }
+  .SceneCunction .SceneCunction-h3-1 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.44rem;
+    letter-spacing: 0.05rem;
+  }
+  .SceneCunction .SceneCunction-p-1 {
+    width: 5.81rem;
+    height: 1.32rem;
+    margin-top: 0.25rem;
+    margin-left: 0.85rem;
+  }
+  .SceneCunction .SceneCunction-p-1 p {
+    font-size: 0.24rem;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .SceneCunction .SceneCunction-img-1 {
+    width: 2.25rem;
+    height: 2.8rem;
+    margin: 0 auto;
+    margin-top: 0.69rem;
+    border: 1px dashed #ccc;
+  }
+  .SceneCunction .SceneCunction-img-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .SceneCunction .SceneCunction-h4-2 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.77rem;
+    color: #333333;
+    letter-spacing: 0.05rem;
+  }
+  .SceneCunction .SceneCunction-p-2 {
+    width: 4.43rem;
+    height: 1.32rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+  }
+  .SceneCunction .SceneCunction-p-2 p {
+    font-size: 0.24rem;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .SceneCunction .SceneCunction-img-2 {
+    width: 2.99rem;
+    height: 2.04rem;
+    margin: 0 auto;
+    margin-top: 1.01rem;
+    border: 1px dashed #ccc;
+  }
+  .SceneCunction .SceneCunction-img-2 img {
+    width: 100%;
+    height: 100%;
+  }
+  .SceneCunction .SceneCunction-h4-3 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.77rem;
+    color: #333333;
+    letter-spacing: 0.05rem;
+  }
+  .SceneCunction .SceneCunction-p-3 {
+    width: 4.43rem;
+    height: 1.32rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+  }
+  .SceneCunction .SceneCunction-p-3 p {
+    font-size: 0.24rem;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .SceneCunction .SceneCunction-img-3 {
+    width: 2.11rem;
+    height: 2.12rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    border: 1px dashed #ccc;
+  }
+  .SceneCunction .SceneCunction-img-3 img {
+    width: 100%;
+    height: 100%;
+  }
+  .SceneCunction .SceneCunction-h4-4 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.77rem;
+    color: #333333;
+    letter-spacing: 0.05rem;
+  }
+  .SceneCunction .SceneCunction-p-4 {
+    width: 4rem;
+    height: 0.99rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+  }
+  .SceneCunction .SceneCunction-p-4 p {
+    font-size: 0.24rem;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .SceneCunction .SceneCunction-img-4 {
+    width: 2.45rem;
+    height: 2.03rem;
+    margin: 0 auto;
+    margin-top: 0.69rem;
+    border: 1px dashed #ccc;
+  }
+  .SceneCunction .SceneCunction-img-4 img {
+    width: 100%;
+    height: 100%;
+  }
+  .SceneCunction .SceneCunction-h4-5 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.77rem;
+    color: #333333;
+    letter-spacing: 0.05rem;
+  }
+  .SceneCunction .SceneCunction-p-5 {
+    width: 4rem;
+    height: 0.99rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+  }
+  .SceneCunction .SceneCunction-p-5 p {
+    font-size: 0.24rem;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .SceneCunction .SceneCunction-img-5 {
+    width: 2.95rem;
+    height: 2.3rem;
+    margin: 0 auto;
+    margin-top: 0.83rem;
+    margin-bottom: 0.69rem;
+    border: 1px dashed #ccc;
+  }
+  .SceneCunction .SceneCunction-img-5 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* 尾部 */
+  
+  .footer {
+    border: 1px dashed #ccc;
+    width: 7.48rem;
+    height: 2.5rem;
+    background: url("../image/footer-phone.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .foot_i {
+    color: #fff;
+    position: absolute;
+    left: 0.5rem;
+    top: .4rem;
+    text-align: left;
+  }
+  .foot_i dt {
+    font-size: 0.14rem;
+    margin-bottom: 0.45rem;
+  }
+  .foot_i dd {
+    margin: 0;
+    width: 1.2rem;
+    font-size: 0.12rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 2px dashed #fff;
+  }
+  .foot_t {
+    color: #fff;
+    position: absolute;
+    left: 2rem;
+    top: .4rem;
+    text-align: left;
+  }
+  .foot_t dt {
+    font-size: 0.14rem;
+    margin-bottom: 0.25rem;
+  }
+  .foot_t dd {
+    margin: 0;
+    width: 1.2rem;
+    font-size: 0.12rem;
+    padding: 0.1rem 0;
+    border-bottom: 2px solid#fff;
+  }
+  .about {
+    color: #fff;
+    position: absolute;
+    right: 2.7rem;
+    top: .4rem;
+    text-align: left;
+  }
+  .about dt {
+    font-size: 0.14rem;
+    margin-bottom: 0.25rem;
+  }
+  .about dd {
+    margin: 0;
+    width: 1.2rem;
+    font-size: 0.12rem;
+    padding: 0.1rem 0;
+    border-bottom: 2px solid#fff;
+  }
+  .follow {
+    color: #fff;
+    position: absolute;
+    right: 1.1rem;
+    top: .4rem;
+    text-align: left;
+  }
+  .follow dt {
+    font-size: 0.14rem;
+    margin-bottom: 0.25rem;
+  }
+  .follow dd {
+    height: 100%;
+  }
+  .follow dd img {
+    width: 0.43rem;
+    height: 0.43rem;
+  }
+  .scene{
+    display: none;
+  }
+  .Design_mb{
+    display: none;
+  }
+  }
